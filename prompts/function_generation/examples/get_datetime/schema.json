@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "timezone": {
+      "description": "取得したいタイムゾーン",
+      "examples": ["JST", "UTC"],
+      "title": "Timezone",
+      "type": "string"
+    }
+  },
+  "required": ["timezone"],
+  "title": "DateInfo",
+  "type": "object"
+}
